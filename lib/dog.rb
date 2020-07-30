@@ -17,5 +17,5 @@ end
 
 def self.print_all
   @@all each do |name|
-    puts 
+    puts dog.name
 end
