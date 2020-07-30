@@ -11,9 +11,8 @@ def self.all
   @@all
 end 
 
-def self.print_all 
-  self.print_all each do |name|
-    puts "{#name}"
+def self.clear_all
+  @@all = []
 end 
 end
 end
