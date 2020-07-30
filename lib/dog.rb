@@ -11,7 +11,7 @@ def self.all
   @@all
 end 
 
-def self.empty
+def self.all.empty
   @@all
 end 
 
