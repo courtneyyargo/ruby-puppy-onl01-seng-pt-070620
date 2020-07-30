@@ -15,5 +15,5 @@ def self.print_all
   self.print_all each do |name|
     puts "{#name}"
 end 
-
+end
 end
