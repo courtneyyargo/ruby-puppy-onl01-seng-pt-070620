@@ -12,7 +12,7 @@ def self.all
 end 
 
 def self.all.empty?
-  @@all
+  @@all.delete
 end 
 
 end
