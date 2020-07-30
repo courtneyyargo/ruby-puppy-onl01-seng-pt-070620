@@ -11,8 +11,9 @@ def self.all
   @@all
 end 
 
-def self.all.empty?
-  @@all.delete
+def self.print_all 
+  self.print_all each do |name|
+    puts "{#name}"
 end 
 
 end
