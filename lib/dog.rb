@@ -25,7 +25,7 @@ def save
   @@all << self 
 end 
 
-dog name(name)
+dog name
 @name 
 end 
 
